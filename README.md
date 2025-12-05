@@ -28,6 +28,7 @@ Run Simulation: Execute the compiled program with one of the provided macro file
 The Simulation can also be run without any macro which will open the visualisation
 
 Analyze: Navigate to the scripts directory and run the main analysis script: python angle_val_all.py. This will generate comparison plots and print the χ² and C_eta results to the console.
+
 2. thesis: NEBULA-Xplorer Instrument Simulation
 This is the main simulation of the thesis, modeling the complete NEBULA-Xplorer instrument to evaluate the radiation hardness of different X-ray optic designs.
 
