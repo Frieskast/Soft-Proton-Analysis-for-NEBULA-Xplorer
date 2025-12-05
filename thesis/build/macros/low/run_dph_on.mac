@@ -1,0 +1,8 @@
+/det/filterOn true
+/det/mirrorType DPH
+/run/initialize
+/gun/energy 250 keV
+/run/beamOn 300000
+
+/gun/energy 100 keV
+/run/beamOn 300000
