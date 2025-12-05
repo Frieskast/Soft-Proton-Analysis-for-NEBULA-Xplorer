@@ -1,0 +1,8 @@
+/run/initialize
+
+/gun/incidentAngle 1 deg
+
+# 1000 keV
+/gun/energy 1000 keV
+/msc/thetaLimit 0.00
+/run/beamOn 500

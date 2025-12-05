@@ -1,0 +1,48 @@
+# --- Build Artifacts ---
+# Ignore everything inside the build directory...
+/build/*
+
+# ...but DO NOT ignore .csv and .sh files directly inside it.
+!/build/*.csv
+!/build/*.sh
+!/build/macros/*
+# Explicitly ignore the nested build directory and CMake files just in case.
+/build/build/
+/build/CMakeFiles/
+
+# --- Other Ignored Files (from your original file) ---
+/figures/
+/venv/
+
+# Ignore compiled object files and libraries
+*.o
+*.so
+*.a
+*.dll
+
+# Ignore the final executable
+/thesis
+
+# --- Output Files ---
+# Ignore data output files
+*.out
+
+# Ignore figure/plot outputs
+*.pdf
+*.png
+*.jpg
+*.eps
+*.nfs
+
+# --- IDE and System Files ---
+# Ignore Visual Studio Code specific files
+.vscode/
+
+# Ignore general temporary files
+*~
+*.swp
+*.swo
+
+# --- Other ---
+# Ignore the venv directory for python scripts
+/scripts/__pycache__/

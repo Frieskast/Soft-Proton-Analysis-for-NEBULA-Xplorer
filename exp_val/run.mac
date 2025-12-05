@@ -1,0 +1,4 @@
+/gun/incidentAngle 0.36
+/gun/energy 50 keV
+/run/initialize
+/run/beamOn 1000000

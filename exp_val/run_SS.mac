@@ -1,0 +1,32 @@
+/run/initialize
+/gun/incidentAngle 0.83
+/gun/energy 1000 keV
+/run/beamOn 900000
+
+/gun/incidentAngle 1.00
+/gun/energy 1000 keV
+/run/beamOn 1200000
+
+/gun/incidentAngle 1.17
+/gun/energy 1000 keV
+/run/beamOn 1500000
+
+/gun/incidentAngle 0.89
+/gun/energy 500 keV
+/run/beamOn 1100000
+
+/gun/incidentAngle 1.06
+/gun/energy 500 keV
+/run/beamOn 1500000
+
+/gun/incidentAngle 1.23
+/gun/energy 500 keV
+/run/beamOn 1700000
+
+/gun/incidentAngle 1.06
+/gun/energy 250 keV
+/run/beamOn 1600000
+
+/gun/incidentAngle 1.23
+/gun/energy 250 keV
+/run/beamOn 1900000

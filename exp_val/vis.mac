@@ -1,0 +1,13 @@
+/mirror/psi_deg 0.36
+/run/initialize
+/vis/open OGL
+/vis/viewer/set/viewpointVector 1 1 1
+/vis/drawVolume
+/vis/viewer/set/autoRefresh true
+/vis/scene/add/trajectories smooth
+/vis/scene/endOfEventAction accumulate
+/vis/scene/add/axes 0 0 0 0.1
+
+/gun/incidentAngle 0.30
+
+

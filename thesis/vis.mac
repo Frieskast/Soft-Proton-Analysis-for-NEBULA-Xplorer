@@ -1,0 +1,16 @@
+/physics/select ss
+/run/initialize
+/vis/open HepRepFile
+
+/vis/viewer/set/viewpointThetaPhi 90 0
+/vis/drawVolume
+
+/vis/scene/add/trajectories smooth
+/vis/scene/endOfEventAction accumulate
+
+/vis/heprep/setFileName geometry_with_events
+# Write the current scene to the file
+/vis/viewer/flush
+
+
+

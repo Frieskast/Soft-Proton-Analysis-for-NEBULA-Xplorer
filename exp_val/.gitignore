@@ -1,0 +1,37 @@
+# --- Build Artifacts ---
+# Ignore the entire build directory
+/build/
+/figures/
+
+# Ignore compiled object files and libraries
+*.o
+*.so
+*.a
+*.dll
+
+# Ignore the final executable
+/exp_val
+
+# --- Output Files ---
+# Ignore121 data output files
+*.out
+
+# Ignore figure/plot outputs
+*.pdf
+*.png
+*.jpg
+*.eps
+
+# --- IDE and System Files ---
+# Ignore Visual Studio Code specific files
+.vscode/
+
+# Ignore general temporary files
+*~
+*.swp
+*.swo
+
+# --- Other ---
+# Ignore the venv directory for python scripts
+/scripts/venv/
+/scripts/__pycache__/
